@@ -1,0 +1,1 @@
+{"index.js":"function factorialize(num) {\n  if(num === 0)\n  {\n    return 1;\n  }\n  return num * factorialize(num-1); \n}\n\nfactorialize(5);"}
