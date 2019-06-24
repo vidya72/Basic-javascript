@@ -1,0 +1,1 @@
+{"index.js":"function findLongestWordLength(str) {\n  let word = str.split(' ');\n  let maxwords = 0;\n\nfor(let i = 0; i <= word.length-1 ;i++)\n{\n  console.log(word[i]);\n if(word[i].length > maxwords)\nmaxwords = word[i].length;\n}\n\n  return maxwords;\n}\n\nfindLongestWordLength(\"The quick brown fox jumped over the lazy dog\");"}
