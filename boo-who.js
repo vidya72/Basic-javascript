@@ -1,0 +1,1 @@
+{"index.js":"function booWho(bool) {\n  // What is the new fad diet for ghost developers? The Boolean.\n  if( typeof(bool) === 'boolean')\n\n  return true;\n\nelse \nreturn false;\n}\nbooWho(null);"}
